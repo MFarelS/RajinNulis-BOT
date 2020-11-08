@@ -54,6 +54,11 @@
 ## BUG
 some devices, unreadable fonts, certain devices only
 
+### Join The WhatsApp Group
+* [`Group 1`](https://chat.whatsapp.com/FsAlnxqz6y2BhCQi5ayCLG) 
+* [`Grpup 2`](https://chat.whatsapp.com/BQxoDt9OC2aKBPa2QbVrsJ) 
+* [`Group 3`](https://chat.whatsapp.com/J8By4OYL6dhKIdvc4wfOUN) 
+
 ### Troubleshooting
 Make sure all the necessary dependencies are installed.
 https://github.com/puppeteer/puppeteer/blob/main/docs/troubleshooting.md
@@ -75,7 +80,7 @@ Fix Stuck on linux, install google chrome stable:
 * [`Rozie`](https://instagram.com/_rooziee) 
 * [`Cahyo`](https://github.com/Cahyo224) 
 * [`Dandi`](https://github.com/dandyraka) 
-* [`ItsWilll`](https://instagram.com/its.willl_
+* [`ItsWilll`](https://instagram.com/its.willl_) 
 * [`BayuPutra`](https://github.com/bayuputra18) 
 
 ### MFarelS
