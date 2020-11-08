@@ -1,3 +1,4 @@
+# Rajin Nulis BOT WhatsApp
 <p align="center">
 <a href="#"><img title="Whatsapp-Bot" src="https://img.shields.io/badge/Whatsapp Bot-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
@@ -14,8 +15,7 @@
 ## Need
 * [`Git`](https://git-scm.com/downloads)
 * [`NodeJS`](https://nodejs.org/en/download) 
-* [`ImageMagick`](https://imagemagick.org/script/download.php) 
-#### Checklist Columns 1,2,3,5,6
+* [`ImageMagick`](https://imagemagick.org/script/download.php) CHECKLIST COLUMNS 1,2,3,5,6
 * [`Indie-Flower Font`](https://fonts.google.com/specimen/Indie+Flower) 
 
 ## Clone This Project
@@ -51,6 +51,8 @@
 | :-----------: | :--------------------------------: |
 |       ✅       | /magernulis1         |
 
+## BUG
+some devices, unreadable fonts, certain devices only
 
 ### Troubleshooting
 Make sure all the necessary dependencies are installed.
