@@ -14,7 +14,7 @@
 
 ### Scrip BOT Nulis DiBuat Oleh : [`Elianiva`](https://github.com/elianiva/img-to-sticker-bot)
 ### Dikembangkan Oleh : [`MFarelS`](https://github.com/MFarelS/RajinNulis-BOT)
-### Menggunakan Script : [`SomnathDas/WhatsApp-Boto-Re`](https://github.com/SomnathDas/Whatsapp-Botto-Re), [`MhankBarBar`](https://github.com/mhankbarbar/whatsapp-bot)
+### Menggunakan Script : [`SomnathDas/WhatsApp-Boto-Re`](https://github.com/SomnathDas/Whatsapp-Botto-Re), [`MhankBarBar/whatsapp-bot`](https://github.com/mhankbarbar/whatsapp-bot)
 
 ## Need
 * [`Git`](https://git-scm.com/downloads)
