@@ -12,9 +12,9 @@
 <a href="https://github.com/MFarelS/RajinNulis-BOT/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/MFarelS/RajinNulis-BOT?label=Watchers&color=blue&style=flat-square"></a>
 </p>
 
-### Scrip BOT Nulis DiBuat Oleh : [`Elianiva`](https://github.com/elianiva/img-to-sticker-bot)
+### Author Script Nulis : [`Elianiva`](https://github.com/elianiva/img-to-sticker-bot)
 ### Dikembangkan Oleh : [`MFarelS`](https://github.com/MFarelS/RajinNulis-BOT)
-### Menggunakan Script : [`SomnathDas/WhatsApp-Boto-Re`](https://github.com/SomnathDas/Whatsapp-Botto-Re), [`MhankBarBar/whatsapp-bot`](https://github.com/mhankbarbar/whatsapp-bot)
+### Using Script : [`SomnathDas/WhatsApp-Boto-Re`](https://github.com/SomnathDas/Whatsapp-Botto-Re), [`MhankBarBar/whatsapp-bot`](https://github.com/mhankbarbar/whatsapp-bot)
 
 ## Need
 * [`Git`](https://git-scm.com/downloads)
