@@ -1,0 +1,35 @@
+{
+  "name": "RajinNulis-BOT-WhatsApp",
+  "version": "1.0.0",
+  "description": "Halo Bwang/Mbwak, Lagi Ngapain?, Udah Makan?",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MFarelS",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@open-wa/wa-automate": "^2.0.28",
+    "@open-wa/wa-decrypt": "^2.0.1",
+    "fs-extra": "^9.0.1",
+    "got": "^11.7.0",
+    "moment-timezone": "^0.5.31", 
+    "request": "^2.88.2"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MFarelS/RajinNulis-BOT"
+  },
+  "keywords": [
+    "Bot-Nulis"
+  ],
+  "bugs": {
+    "url": "https://github.com/MFarelS/RajinNulis-BOT/issues"
+  },
+  "homepage": "https://github.com/MFarelS/RajinNulis-BOT#readme"
+}
