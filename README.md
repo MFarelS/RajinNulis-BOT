@@ -12,6 +12,10 @@
 <a href="https://github.com/MFarelS/RajinNulis-BOT/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/MFarelS/RajinNulis-BOT?label=Watchers&color=blue&style=flat-square"></a>
 </p>
 
+### Scrip BOT Nulis DiBuat Oleh : [`Elianiva`](https://github.com/elianiva/img-to-sticker-bot)
+### Dikembangkan Oleh : [`MFarelS`](https://github.com/MFarelS/RajinNulis-BOT)
+### Menggunakan Script : [`SomnathDas/WhatsApp-Boto-Re`](https://github.com/SomnathDas/Whatsapp-Botto-Re), [`MhankBarBar`](https://github.com/mhankbarbar/whatsapp-bot)
+
 ## Need
 * [`Git`](https://git-scm.com/downloads)
 * [`NodeJS`](https://nodejs.org/en/download) 
@@ -52,10 +56,11 @@
 |       ✅       | /magernulis1         |
 
 ## BUG
-some devices, unreadable fonts, certain devices only
+— some devices, unreadable fonts, certain devices only
+— broken methods
 
 ### Join The WhatsApp Group
-* [`Group 1`](https://chat.whatsapp.com/FsAlnxqz6y2BhCQi5ayCLG) 
+* [`Group 1`](https://chat.whatsapp.com/Gha1RHXtPPf5dW2Z2Yzp5N) 
 * [`Grpup 2`](https://chat.whatsapp.com/BQxoDt9OC2aKBPa2QbVrsJ) 
 * [`Group 3`](https://chat.whatsapp.com/J8By4OYL6dhKIdvc4wfOUN) 
 
