@@ -76,6 +76,7 @@ Fix Stuck on linux, install google chrome stable:
 * [`Elianiva/img-to-sticker-bot`](https://github.com/Elianiva/img-to-sticker-bot) 
 * [`DymidProw`](https://youtube.com/c/DymidProw) 
 * [`Stars`](https://github.com/bintang73) 
+* [`NezukoChan`](instagram.com/nezuko.chan.12)
 * [`Ristiyanto`](https://github.com/Gimenz) 
 * [`Rozie`](https://instagram.com/_rooziee) 
 * [`Cahyo`](https://github.com/Cahyo224) 
