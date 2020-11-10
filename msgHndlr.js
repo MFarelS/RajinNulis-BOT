@@ -57,7 +57,7 @@ module.exports = msgHandler = async (farelsukasamazahra, message) => {
             if (args.length === 1) return farelsukasamazahra.reply(from, 'Ketik /magernulis1 [teks]', id)
             farelsukasamazahra.sendText(from, mess.magernulissatu, id)
             const text = body.slice(12) 
-            const splitText = text.replace(/(\S+\s*){1,3}/g, '$&\n')
+            const splitText = text.replace(/(\S+\s*){1,7.5}/g, '$&\n')
             const fixHeight = splitText.split('\n').slice(0, 28).join('\n')
             spawn('convert', [
                 './gbr/mager/magernulis1.jpg',
