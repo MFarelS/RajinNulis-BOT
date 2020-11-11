@@ -61,7 +61,7 @@ module.exports = msgHandler = async (farelzahra, message) => {
             const zahra = body.slice(12)
             await farelzahra.reply(from, botnulis.magernulissatu, id)
             const farel = zahra.replace(/(\S+\s*){1,10}/g, '$&\n')
-            const zahrafarel = farel.split('\n').slice(0, 28).join('\n')
+            const zahrafarel = farel.split('\n').slice(0, 30).join('\n')
             var months = ['- 1 -', '- 2 -', '- 3 -', '- 4 -', '- 5 -', '- 6 -', '- 7 -', '- 8 -', '- 9 -', '- 10 -', '- 11 -', '- 12 -'];
             var myDays = ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat', 'Sabtu'];
             var date = new Date();
