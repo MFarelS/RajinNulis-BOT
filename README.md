@@ -1,5 +1,8 @@
 # Rajin Nulis BOT WhatsApp
 <p align="center">
+<img src="https://raw.githubusercontent.com/mfarels/RajinNulis-BOT/master/gbr/Farelll.jpg" width="128" height="128"/>
+</p>
+<p align="center">
 <a href="#"><img title="Whatsapp-Bot" src="https://img.shields.io/badge/Whatsapp Bot-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
 <p align="center">
@@ -95,3 +98,8 @@ Fix Stuck on linux, install google chrome stable:
 * [`Github`](https://github.com/MFarelS) 
 * [`WhatsApp`](https://wa.me/6281219087237) 
 * [`Saweria`](https://saweria.co/donate/MFarelS)
+
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/mfarels/RajinNulis-BOT/master/gbr/Zahraaa.jpg" width="128" height="128"/>
+</p>
