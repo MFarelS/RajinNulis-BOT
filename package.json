@@ -1,7 +1,7 @@
 {
   "name": "RajinNulis-BOT-WhatsApp",
   "version": "1.0.0",
-  "description": "Halo Bwang/Mbwak, Lagi Ngapain?, Udah Makan?",
+  "description": "Subscribe MFarelS CH, Follow Instagram @mfarelsyahtiawan, Follow Twitter @MSyahtiawan, Saweria MFarelS.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -10,7 +10,7 @@
   "author": "MFarelS",
   "license": "Apache-2.0",
   "dependencies": {
-    "@open-wa/wa-automate": "^2.0.28",
+    "@open-wa/wa-automate": "^3.0.13",
     "@open-wa/wa-decrypt": "^2.0.1",
     "fs-extra": "^9.0.1",
     "got": "^11.7.0",
