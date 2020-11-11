@@ -51,13 +51,12 @@
 
 ## Features
 
-| RajinNulis-BOT |                Command           |
-| :-----------: | :--------------------------------: |
-|       ✅       | /magernulis1         |
+| RajinNulis-BOT |                Command           | Tambalan |
+| :-----------: | :--------------------------------: | :------: |
+|       ✅       | /magernulis1         | Hari, Waktu ✓ |
 
 ## BUG
 — some devices, unreadable fonts, certain devices only
-— broken methods
 
 ### Join The WhatsApp Group
 * [`Group 1`](https://chat.whatsapp.com/Gha1RHXtPPf5dW2Z2Yzp5N) 
