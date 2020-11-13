@@ -30,7 +30,7 @@ const start = async (zahraaafarelll = new zahraaafarelll()) => {
             if (totalMem < 10) { 
             	zahraaafarelll.sendText(chat.id, `Minimal Add Bot 10 Member`).then(() => zahraaafarelll.leaveGroup(chat.id)).then(() => zahraaafarelll.deleteChat(chat.id))
             } else {
-                zahraaafarelll.sendText(chat.groupMetadata.id, `Hi Warga Grup *${chat.contact.name}* THX Yaw!!! Udah Nambahin BOT Nulis Ini Ke Grup *${chat.contact.name}\nUntuk Melihat Menu Silahkan Ketik #help Atau #menu\n\nUntuk Menulis Silahkan Cek Menu.`)
+                zahraaafarelll.sendText(chat.groupMetadata.id, `Hi Warga Grup *${chat.contact.name}* THX Yaw!!! Udah Nambahin BOT Nulis Ini Ke Grup *${chat.contact.name}*\nUntuk Melihat Menu Silahkan Ketik #help Atau #menu\n\nUntuk Menulis Silahkan Cek Menu.`)
             }
         }))
 
