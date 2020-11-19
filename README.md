@@ -17,15 +17,15 @@
 
 ### Author Script Nulis : [`Elianiva`](https://github.com/elianiva/img-to-sticker-bot)
 ### Dikembangkan Oleh : [`MFarelS`](https://github.com/MFarelS/RajinNulis-BOT)
-### Using Script : [`SomnathDas/WhatsApp-Boto-Re`](https://github.com/SomnathDas/Whatsapp-Botto-Re), [`MhankBarBar/whatsapp-bot`](https://github.com/mhankbarbar/whatsapp-bot)
+### Author  Script BOT : [`SomnathDas`](https://github.com/SomnathDas/Whatsapp-Botto-Re), [`MhankBarBar`](https://github.com/mhankbarbar/whatsapp-bot), [`YogaSakti`](https://github.com/YogaSakti/imageToSticker)
 
-## Need
+## Bahan
 * [`Git`](https://git-scm.com/downloads)
 * [`NodeJS`](https://nodejs.org/en/download) 
 * [`ImageMagick`](https://imagemagick.org/script/download.php) CHECKLIST COLUMNS 1,2,3,5,6
 * [`Indie-Flower Font`](https://fonts.google.com/specimen/Indie+Flower) 
 
-## Clone This Project
+## Clone Proyek
 
 ```bash
 > git clone https://github.com/MFarelS/RajinNulis-BOT
@@ -56,40 +56,26 @@
 
 | RajinNulis-BOT |                Command           | Tambalan |
 | :-----------: | :--------------------------------: | :------: |
-|       ✅       | /magernulis1         | Hari, Waktu ✓ |
+|       ✅       |   /magernulis1       | Hari, Waktu ✓ |
 
 ## BUG
-— some devices, unreadable fonts, certain devices only
+— Beberapa PC/KOMPUTER/LAPTOP Font Tidak Terbaca
 
-### Join The WhatsApp Group
-* [`Group 1`](https://chat.whatsapp.com/Gha1RHXtPPf5dW2Z2Yzp5N) 
-* [`Grpup 2`](https://chat.whatsapp.com/BQxoDt9OC2aKBPa2QbVrsJ) 
-* [`Group 3`](https://chat.whatsapp.com/J8By4OYL6dhKIdvc4wfOUN) 
-
-### Troubleshooting
-Make sure all the necessary dependencies are installed.
-https://github.com/puppeteer/puppeteer/blob/main/docs/troubleshooting.md
-
-Fix Stuck on linux, install google chrome stable:
-```bash
-> wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-> sudo apt install ./google-chrome-stable_current_amd64.deb
-```
 ## Special Thanks to
 * [`open-wa/wa-automate-nodejs`](https://github.com/open-wa/wa-automate-nodejs)
 * [`YogaSakti/imageToSticker`](https://github.com/YogaSakti/imageToSticker) 
 * [`MhankBarBar/whatsapp-bot`](https://github.com/MhankBarBar/whatsapp-bot) 
 * [`SomnathDas/Whatsapp-Botto-Re`](https://github.com/SomnathDas/Whatsapp-Botto-Re)
 * [`Elianiva/img-to-sticker-bot`](https://github.com/Elianiva/img-to-sticker-bot) 
-* [`DymidProw`](https://youtube.com/c/DymidProw) 
-* [`Stars`](https://github.com/bintang73) 
+* [`DymidProwID`](https://youtube.com/c/DymidProw) 
+* [`Bintang73`](https://github.com/bintang73) 
 * [`NezukoChan`](https://instagram.com/nezuko.chan.12)
-* [`Ristiyanto`](https://github.com/Gimenz) 
+* [`GimenzID`](https://github.com/Gimenz) 
 * [`Rozie`](https://instagram.com/_rooziee) 
-* [`Cahyo`](https://github.com/Cahyo224) 
-* [`Dandi`](https://github.com/dandyraka) 
+* [`Cahyo224`](https://github.com/Cahyo224) 
+* [`Dandyraka`](https://github.com/dandyraka) 
 * [`ItsWilll`](https://instagram.com/its.willl_) 
-* [`BayuPutra`](https://github.com/bayuputra18) 
+* [`BayuPutra18`](https://github.com/bayuputra18) 
 
 ### MFarelS
 * [`YouTube`](https://https://m.youtube.com/channel/UCYfBSMa1JJbKwD8bNm-etiA) 
