@@ -10,7 +10,7 @@
   "author": "MFarelS",
   "license": "Apache-2.0",
   "dependencies": {
-    "@open-wa/wa-automate": "^3.0.16",
+    "@open-wa/wa-automate": "^3.1.0",
     "@open-wa/wa-decrypt": "^2.0.1",
     "axios": "^0.19.2",
     "chalk": "^4.1.0",
