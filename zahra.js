@@ -107,64 +107,93 @@ MOHON UNTUK TIDAK MENGHAPUS SOURCE GITHUB
         //MAGER NULIS//
         case '/magernulis1':
         case '#magernulis1':
-            if (args.length === 1) return await zahraaa.reply(from, 'Kirim Perintah */magernulis1 [teks]* Atau *#magernulis1 [teks]*', id)
-            const diTulis = body.slice(12)
-            await zahraaa.reply(from, menulis.magernulissatu, id)
-            const panjangKalimat = diTulis.replace(/(\S+\s*){1,10}/g, '$&\n')
-            const panjangBaris = panjangKalimat.split('\n').slice(0, 30).join('\n')
-            var months = ['- 1 -', '- 2 -', '- 3 -', '- 4 -', '- 5 -', '- 6 -', '- 7 -', '- 8 -', '- 9 -', '- 10 -', '- 11 -', '- 12 -'];
-            var myDays = ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat', 'Sabtu'];
-            var date = new Date();
-            var day = date.getDate();
-            var month = date.getMonth();
-            var thisDay = date.getDay(),
-                thisDay = myDays[thisDay];
-            var yy = date.getYear();
-            var year = (yy < 1000) ? yy + 1900 : yy;
-            const waktu = (day + ' ' + months[month] + ' ' + year)
-            const hari = (thisDay)
-            spawn('convert', [
-                './mager/magernulis/magernulis1.jpg',
-                '-font',
-                'Indie-Flower',
-                '-size',
-                '700x960',
-                '-pointsize',
-                '20',
-                '-interline-spacing',
-                '1',
-                '-annotate',
-                '+806+78',
-                hari,
-                '-font',
-                'Indie-Flower',
-                '-size',
-                '700x960',
-                '-pointsize',
-                '18',
-                '-interline-spacing',
-                '1',
-                '-annotate',
-                '+806+102',
-                waktu,
-                '-font',
-                'Indie-Flower',
-                '-size',
-                '700x960',
-                '-pointsize',
-                '20',
-                '-interline-spacing',
-                '-7.5',
-                '-annotate',
-                '+344+142',
-                panjangBaris,
-                './mager/magernulis√/magernulis1√.jpg'
-            ])
-            .on('error', () => zahraaa.reply(from, 'Error Bjeer, Keknya Scriptnya Lagi Error', id))
-            .on('exit', () => {
-                zahraaa.sendImage(from, './mager/magernulis√/magernulis1√.jpg', 'Jarot.jpg', '*Sukses✓ Nulis DiBuku ✓*\n\n*YouTube : MFarelS CH*\n*Instagram : @mfarelsyahtiawan*\n*Twitter : @MSyahtiawan*\n*GitHub : @MFarelS*\n*Saweria : MFarelS*\n\n*© Powered By MagerNulis BOT✓*', id)
-            })
-        break
+                if (args.length === 4) return await zahraaa.reply(from, 'Kirim Perintah */magernulis1 --[nama]--[kelas]--[teks]* Atau *#magernulis1 --[nama]--[kelas]--[teks]*', id)
+                arg = body.trim().split('--')
+                const diNama = arg[1]
+                const diKelas = arg[2]
+                const diTulis = arg[3]
+                await zahraaa.reply(from, menulis.magernulissatu, id)
+                const panjangKalimat = diTulis.replace(/(\S+\s*){1,10}/g, '$&\n')
+                const panjangNama = diNama.replace(/(\S+\s*){1,10}/g, '$&\n')
+                const panjangKelas = diKelas.replace(/(\S+\s*){1,10}/g, '$&\n')
+                const panjangBaris = panjangKalimat.split('\n').slice(0, 30).join('\n')
+               const panjangBarisNama = panjangNama.split('\n').slice(0, 30).join('\n')
+               const panjangBarisKelas = panjangKelas.split('\n').slice(0, 30).join('\n')
+                var months = ['- 1 -', '- 2 -', '- 3 -', '- 4 -', '- 5 -', '- 6 -', '- 7 -', '- 8 -', '- 9 -', '- 10 -', '- 11 -', '- 12 -'];
+                var myDays = ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat', 'Sabtu'];
+                var date = new Date();
+                var day = date.getDate();
+                var month = date.getMonth();
+                var thisDay = date.getDay(),
+                    thisDay = myDays[thisDay];
+                var yy = date.getYear();
+                var year = (yy < 1000) ? yy + 1900 : yy;
+                const waktu = (day + ' ' + months[month] + ' ' + year)
+                const hari = (thisDay)
+                spawn('convert', [
+                    './mager/magernulis/magernulis1.jpg',
+                    '-font',
+                    'Zahraaa',
+                    '-size',
+                    '700x960',
+                    '-pointsize',
+                    '20',
+                    '-interline-spacing',
+                    '1',
+                    '-annotate',
+                    '+806+78',
+                    hari,
+                    '-font',
+                    'Zahraaa',
+                    '-size',
+                    '700x960',
+                    '-pointsize',
+                    '18',
+                    '-interline-spacing',
+                    '1',
+                    '-annotate',
+                    '+806+102',
+                    waktu,
+                    '-font',
+                    'Zahraaa',
+                    '-size',
+                    '700x960',
+                    '-pointsize',
+                    '18',
+                    '-interline-spacing',
+                    '1',
+                    '-annotate',
+                    '+360+100',
+                    panjangBarisNama,
+                    '-font',
+                    'Zahraaa',
+                    '-size',
+                    '700x960',
+                    '-pointsize',
+                    '18',
+                    '-interline-spacing',
+                    '1',
+                    '-annotate',
+                    '+360+120',
+                    panjangBarisKelas, 
+                    '-font',
+                    'Zahraaa',
+                    '-size',
+                    '700x960',
+                    '-pointsize',
+                    '20',
+                    '-interline-spacing',
+                    '-7.5',
+                    '-annotate',
+                    '+344+142',
+                    panjangBaris,
+                    './mager/magernulis√/magernulis1√.jpg'
+                ])
+                .on('error', () => zahraaa.reply(from, 'Error Bjeer, Keknya Scriptnya Lagi Error', id))
+                .on('exit', () => {
+                    zahraaa.sendImage(from, './mager/magernulis√/magernulis1√.jpg', 'Jarot.jpg', '*Sukses✓ Nulis DiBuku ✓*\n\n*YouTube : MFarelS CH*\n*Instagram : @mfarelsyahtiawan*\n*Twitter : @MSyahtiawan*\n*GitHub : @MFarelS*\n*Saweria : MFarelS*\n\n*© Powered By MagerNulis BOT✓*', id)
+                })
+            break
 /*
 
 Source code / bot ini merupakan program open-source (gratis) yang ditulis menggunakan JavaScript, kamu dapat menggunakan, menyalin, memodifikasi, menggabungkan, menerbitkan, mendistribusikan, mensublisensikan, dan atau menjual salinan dengan tanpa menghapus author utama dari source code / bot ini.
