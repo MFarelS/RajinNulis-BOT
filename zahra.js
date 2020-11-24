@@ -11,7 +11,7 @@ const get = require('got')
 const fetch = require('node-fetch')
 const color = require('./lib/color')
 const { spawn, exec } = require('child_process')
-const { menu, donate, listnulis, info } = require('./lib/cmd')
+const { menu, donate, info } = require('./lib/cmd')
 const { stdout } = require('process')
 
 moment.tz.setDefault('Asia/Jakarta').locale('id')
@@ -80,19 +80,6 @@ Source code / bot ini merupakan program open-source (gratis) yang ditulis menggu
 MOHON UNTUK TIDAK MENGHAPUS SOURCE GITHUB
 
 */
-        //LIST NULIS//
-        case '#listnulis':
-        case '#magernulis':
-        case '/listnulis':
-        case '/magernulis':
-            zahraaa.reply(from, listnulis, id)
-        break
-/*
-
-Source code / bot ini merupakan program open-source (gratis) yang ditulis menggunakan JavaScript, kamu dapat menggunakan, menyalin, memodifikasi, menggabungkan, menerbitkan, mendistribusikan, mensublisensikan, dan atau menjual salinan dengan tanpa menghapus author utama dari source code / bot ini.
-MOHON UNTUK TIDAK MENGHAPUS SOURCE GITHUB
-
-*/
         //INFO//
         case '/info':
         case '#info':
@@ -107,7 +94,7 @@ MOHON UNTUK TIDAK MENGHAPUS SOURCE GITHUB
         //MAGER NULIS//
         case '/magernulis1':
         case '#magernulis1':
-                if (args.length === 4) return await zahraaa.reply(from, 'Kirim Perintah */magernulis1 --[nama]--[kelas]--[teks]* Atau *#magernulis1 --[nama]--[kelas]--[teks]*', id)
+                if (args.length === 4) return await zahraaa.reply(from, 'Kirim Perintah */magernulis1 --[nama]--[kelas]--[teks]* Atau *#magernulis1 --[nama]--[kelas]--[teks]*\n\n*Contoh :*\n#magernulis1 --MFarelS--7B--Subscribe MFarelS CH', id)
                 arg = body.trim().split('--')
                 const diNama = arg[1]
                 const diKelas = arg[2]
@@ -117,8 +104,8 @@ MOHON UNTUK TIDAK MENGHAPUS SOURCE GITHUB
                 const panjangNama = diNama.replace(/(\S+\s*){1,10}/g, '$&\n')
                 const panjangKelas = diKelas.replace(/(\S+\s*){1,10}/g, '$&\n')
                 const panjangBaris = panjangKalimat.split('\n').slice(0, 30).join('\n')
-               const panjangBarisNama = panjangNama.split('\n').slice(0, 30).join('\n')
-               const panjangBarisKelas = panjangKelas.split('\n').slice(0, 30).join('\n')
+                const panjangBarisNama = panjangNama.split('\n').slice(0, 30).join('\n')
+                const panjangBarisKelas = panjangKelas.split('\n').slice(0, 30).join('\n')
                 var months = ['- 1 -', '- 2 -', '- 3 -', '- 4 -', '- 5 -', '- 6 -', '- 7 -', '- 8 -', '- 9 -', '- 10 -', '- 11 -', '- 12 -'];
                 var myDays = ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat', 'Sabtu'];
                 var date = new Date();
