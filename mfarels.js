@@ -44,6 +44,6 @@ const start = async (farelll = new farelll()) => {
 
     }
 
-create('MFarelS', options(true, start))
+create('MFarelS', magernulis(true, start))
     .then(farelll => start(farelll))
     .catch((error) => console.log(error))
