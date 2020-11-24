@@ -71,7 +71,7 @@ MOHON UNTUK TIDAK MENGHAPUS SOURCE GITHUB
         case '/donasi':
         case '#donate':
         case '#donasi':
-            zahraaa.reply(from, donate, id)
+            zahraaa.sendLinkWithAutoPreview(from, donate, id)
             zahraaa.sendStickerfromUrl(from, 'https://i.ibb.co/KGncspR/Zahraaa.jpg', { method: 'get' })
         break
 /*
