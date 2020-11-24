@@ -16,7 +16,7 @@
 </p>
 
 ### Author Script Nulis : [`Elianiva`](https://github.com/elianiva/img-to-sticker-bot)
-### Dikembangkan Oleh : [`MFarelS`](https://github.com/MFarelS/RajinNulis-BOT)
+### Dikembangkan Oleh : [`MFarelS`](https://github.com/MFarelS/RajinNulis-BOT), [`St4rz`](https://github.com/bintang73)
 ### Author  Script BOT : [`SomnathDas`](https://github.com/SomnathDas/Whatsapp-Botto-Re), [`MhankBarBar`](https://github.com/mhankbarbar/whatsapp-bot), [`YogaSakti`](https://github.com/YogaSakti/imageToSticker)
 
 ## Bahan
@@ -52,14 +52,22 @@
 
 #### SCAN QR
 
+##### Cara Pakai
+```bash
+> /magernulis1 --[Nama Elu]--[Kelas]--[Teks Yang Mau DiTulis]
+```
+
 ## Features
 
-| RajinNulis-BOT |                Command           | Tambalan |
+| RajinNulis-BOT |                Command           | Tambahan |
 | :-----------: | :--------------------------------: | :------: |
-|       ✅       |   /magernulis1       | Hari, Waktu ✓ |
+|       ✅       |   /magernulis1       | Hari, Waktu, Nama, Kelas✓ |
 
 ## BUG
 — Beberapa PC/KOMPUTER/LAPTOP Font Tidak Terbaca
+
+## BIG Special THE To
+* [`St4rz`](https://github.com/bintang73)
 
 ## Special Thanks to
 * [`open-wa/wa-automate-nodejs`](https://github.com/open-wa/wa-automate-nodejs)
@@ -67,8 +75,7 @@
 * [`MhankBarBar/whatsapp-bot`](https://github.com/MhankBarBar/whatsapp-bot) 
 * [`SomnathDas/Whatsapp-Botto-Re`](https://github.com/SomnathDas/Whatsapp-Botto-Re)
 * [`Elianiva/img-to-sticker-bot`](https://github.com/Elianiva/img-to-sticker-bot) 
-* [`DymidProwID`](https://youtube.com/c/DymidProw) 
-* [`Bintang73`](https://github.com/bintang73) 
+* [`DymidProwID`](https://youtube.com/c/DymidProw)  
 * [`NezukoChan`](https://instagram.com/nezuko.chan.12)
 * [`GimenzID`](https://github.com/Gimenz) 
 * [`Rozie`](https://instagram.com/_rooziee) 
