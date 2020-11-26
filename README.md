@@ -23,7 +23,6 @@
 * [`Git`](https://git-scm.com/downloads)
 * [`NodeJS`](https://nodejs.org/en/download) 
 * [`ImageMagick`](https://imagemagick.org/script/download.php) CHECKLIST COLUMNS 1,2,3,5,6
-* [`Font`](http://www.mediafire.com/file/4i1qmndut3abo9m/MFarelS_Font.ttf/file) 
 
 ## Clone Proyek
 
