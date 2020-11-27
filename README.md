@@ -58,13 +58,13 @@
 
 ##### Contoh
 ```bash
-> /magernulis1 --MFarelS--7--Subsccribe MFarelS CH
+> /magernulis1 --MFarelS--7--Subscribe MFarelS CH
 ```
 
 ## Fitur Saat Ini
 
 | RajinNulis-BOT |              Command             | Tambahan |
-| :------------: | :----------------------- ------: | :------: |
+| :------------: | :------------------------------: | :------: |
 |       ✅      |           /magernulis1           | Hari, Waktu, Nama, Kelas✓ |
 
 
