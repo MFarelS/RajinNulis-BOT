@@ -30,7 +30,7 @@
 > git clone https://github.com/MFarelS/RajinNulis-BOT
 ```
 
-## Open Dir
+## Buka Folder BOT
 
 ```bash
 > cd RajinNulis-BOT
