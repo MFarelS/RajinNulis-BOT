@@ -1,6 +1,6 @@
 const { create, farelll } = require('@open-wa/wa-automate')
-const zahra = require('./zahra')
-const magernulis = require('./magernulis')
+const msgHandler = require('./zahra')
+const options = require('./magernulis')
 
 const start = async (farelll = new farelll()) => {
         console.log('███╗░░░███╗░█████╗░░██████╗░███████╗██████╗░  ███╗░░██╗██╗░░░██╗██╗░░░░░██╗░██████╗  ██████╗░░█████╗░████████╗')
@@ -59,6 +59,6 @@ const start = async (farelll = new farelll()) => {
 
     }
 
-create('MFarelS', magernulis(true, start))
+create('MFarelS', option(true, start))
     .then(farelll => start(farelll))
     .catch((error) => console.log(error))
