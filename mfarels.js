@@ -3,7 +3,7 @@ const msgHandler = require('./zahra')
 const options = require('./magernulis')
 
 const start = async (farelll = new farelll()) => {
-        console.log('███╗░░░███╗░█████╗░░██████╗░███████╗██████╗░  ███╗░░██╗██╗░░░██╗██╗░░░░░██╗░██████╗  ██████╗░░█████╗░████████╗')
+        console.log('███╗░░░███╗░█████╗░░██████╗░███████╗███options ███╗░░██╗██╗░░░██╗██╗░░░░░██╗░██████╗  ██████╗░░█████╗░████████╗')
         console.log('████╗░████║██╔══██╗██╔════╝░██╔════╝██╔══██╗  ████╗░██║██║░░░██║██║░░░░░██║██╔════╝  ██╔══██╗██╔══██╗╚══██╔══╝')
         console.log('██╔████╔██║███████║██║░░██╗░█████╗░░██████╔╝  ██╔██╗██║██║░░░██║██║░░░░░██║╚█████╗░  ██████╦╝██║░░██║░░░██║░░░')
         console.log('██║╚██╔╝██║██╔══██║██║░░╚██╗██╔══╝░░██╔══██╗  ██║╚████║██║░░░██║██║░░░░░██║░╚═══██╗  ██╔══██╗██║░░██║░░░██║░░░')
@@ -59,6 +59,6 @@ const start = async (farelll = new farelll()) => {
 
     }
 
-create('MFarelS', option(true, start))
+create('MFarelS', options(true, start))
     .then(farelll => start(farelll))
     .catch((error) => console.log(error))
