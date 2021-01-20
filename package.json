@@ -1,7 +1,7 @@
 {
-  "name": "RajinNulis-BOT",
-  "version": "1.0.0",
-  "description": "MFarelS<b>RajinNulis-BOT</b> YouTube : MFarelS CH</b> Instagram : @mfarelsyahtiawan</b> Github : MFarelS</b> Saweria : https://saweria.co/MFarelS</b> WhatsApp : wa.me/6281219087237</b> Teruntuk Zahra Plis Terima Gw Awokwaokwaokwaok",
+  "name": "MFarelS-BOT",
+  "version": "2.0.0",
+  "description": "MFarelS<b>MFarelS-BOT</b> YouTube : MFarelS CH</b> Instagram : @mfarelsyahtiawan</b> Github : MFarelS</b> Saweria : https://saweria.co/MFarelS</b> WhatsApp : wa.me/6281219087237</b> Teruntuk Zahra Plis Terima Gw Awokwaokwaokwaok",
   "main": "mfarels.js",
   "scripts": {
     "start": "node mfarels.js",
@@ -12,11 +12,11 @@
   "dependencies": {
     "@open-wa/wa-automate": "^3.1.0",
     "@open-wa/wa-decrypt": "^2.0.1",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "chalk": "^4.1.0",
-    "fs-extra": "^9.0.1",
-    "got": "^11.7.0",
-    "moment-timezone": "^0.5.31",
+    "fs-extra": "^9.1.0",
+    "got": "^11.8.1",
+    "moment-timezone": "^0.5.32",
     "node-fetch": "^2.6.1",
     "request": "^2.88.2"
   },
@@ -24,17 +24,42 @@
     "lib": "lib"
   },
   "devDependencies": {
-    "@types/puppeteer": "^5.4.0"
+    "@types/puppeteer": "^5.4.2"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MFarelS/RajinNulis-BOT.git"
+    "url": "git+https://github.com/MFarelS/MFarelS-BOT.git"
   },
   "keywords": [
-    "Bot Nulis"
+    "MFarelS",
+    "Zahra",
+    "Farel",
+    "Farelll",
+    "Nur Azahra",
+    "Zahraaa",
+    "Bot Nulis",
+    "Nulis",
+    "WhatsApp",
+    "Nulis Bot",
+    "Bot",
+    "whatsapp bot",
+    "bot whatsapp",
+    "MFarelS BOT",
+    "MFarelS-BOT",
+    "bot-whatsapp",
+    "whatsapp-bot",
+    "bot nulis whatsapp",
+    "rell",
+    "ra",
+    "raaa",
+    "MFarelS CH",
+    "@mfarelsch",
+    "mfarelsch",
+    "jarottt",
+    "zahroy"
   ],
   "bugs": {
-    "url": "https://github.com/MFarelS/RajinNulis-BOT/issues"
+    "url": "https://github.com/MFarelS/MFarelS-BOT/issues"
   },
-  "homepage": "https://github.com/MFarelS/RajinNulis-BOT#readme"
+  "homepage": "https://github.com/MFarelS/MFarelS-BOT#readme"
 }
