@@ -3,12 +3,12 @@ const msgHandler = require('./zahra')
 const options = require('./magernulis')
 
 const start = async (farelll = new farelll()) => {
-        console.log('███╗░░░███╗░█████╗░░██████╗░███████╗███options ███╗░░██╗██╗░░░██╗██╗░░░░░██╗░██████╗  ██████╗░░█████╗░████████╗')
-        console.log('████╗░████║██╔══██╗██╔════╝░██╔════╝██╔══██╗  ████╗░██║██║░░░██║██║░░░░░██║██╔════╝  ██╔══██╗██╔══██╗╚══██╔══╝')
-        console.log('██╔████╔██║███████║██║░░██╗░█████╗░░██████╔╝  ██╔██╗██║██║░░░██║██║░░░░░██║╚█████╗░  ██████╦╝██║░░██║░░░██║░░░')
-        console.log('██║╚██╔╝██║██╔══██║██║░░╚██╗██╔══╝░░██╔══██╗  ██║╚████║██║░░░██║██║░░░░░██║░╚═══██╗  ██╔══██╗██║░░██║░░░██║░░░')
-        console.log('██║░╚═╝░██║██║░░██║╚██████╔╝███████╗██║░░██║  ██║░╚███║╚██████╔╝███████╗██║██████╔╝  ██████╦╝╚█████╔╝░░░██║░░░')
-        console.log('╚═╝░░░░░╚═╝╚═╝░░╚═╝░╚═════╝░╚══════╝╚═╝░░╚═╝  ╚═╝░░╚══╝░╚═════╝░╚══════╝╚═╝╚═════╝░  ╚═════╝░░╚════╝░░░░╚═╝░░░')
+        console.log('███╗░░░███╗███████╗░█████╗░██████╗░███████╗██╗░░░░░░██████╗░░░░░░██████╗░░█████╗░████████╗')
+        console.log('████╗░████║██╔════╝██╔══██╗██╔══██╗██╔════╝██║░░░░░██╔════╝░░░░░░██╔══██╗██╔══██╗╚══██╔══╝')
+        console.log('██╔████╔██║█████╗░░███████║██████╔╝█████╗░░██║░░░░░╚█████╗░█████╗██████╦╝██║░░██║░░░██║░░░')
+        console.log('██║╚██╔╝██║██╔══╝░░██╔══██║██╔══██╗██╔══╝░░██║░░░░░░╚═══██╗╚════╝██╔══██╗██║░░██║░░░██║░░░')
+        console.log('██║░╚═╝░██║██║░░░░░██║░░██║██║░░██║███████╗███████╗██████╔╝░░░░░░██████╦╝╚█████╔╝░░░██║░░░')
+        console.log('╚═╝░░░░░╚═╝╚═╝░░░░░╚═╝░░╚═╝╚═╝░░╚═╝╚══════╝╚══════╝╚═════╝░░░░░░░╚═════╝░░╚════╝░░░░╚═╝░░░')
         console.log(' ')
         console.log('██████╗░██╗░░░██╗  ███╗░░░███╗███████╗░█████╗░██████╗░███████╗██╗░░░░░░██████╗')
         console.log('██╔══██╗╚██╗░██╔╝  ████╗░████║██╔════╝██╔══██╗██╔══██╗██╔════╝██║░░░░░██╔════╝')
@@ -16,12 +16,15 @@ const start = async (farelll = new farelll()) => {
         console.log('██╔══██╗░░╚██╔╝░░  ██║╚██╔╝██║██╔══╝░░██╔══██║██╔══██╗██╔══╝░░██║░░░░░░╚═══██╗')
         console.log('██████╦╝░░░██║░░░  ██║░╚═╝░██║██║░░░░░██║░░██║██║░░██║███████╗███████╗██████╔╝')
         console.log('╚═════╝░░░░╚═╝░░░  ╚═╝░░░░░╚═╝╚═╝░░░░░╚═╝░░╚═╝╚═╝░░╚═╝╚══════╝╚══════╝╚═════╝░')
+        console.log('')
+        console.log('')
+        console.log('')
         console.log('YouTube : MFareS CH')
         console.log('Instagram : @mfarelsyahtiawan')
-        console.log('GitHub : https://github.com/MFarelS/RajinNulis-BOT')
+        console.log('GitHub : https://github.com/MFarelS/MFarelS-BOT')
+        console.log('Saweria : https://saweria.co/MFarelS')
         console.log('')
         console.log('')
-        console.log('Zahraaa...')
         console.log('')
         console.log('')
         console.log('███╗░░░███╗███████╗░█████╗░██████╗░███████╗██╗░░░░░░██████╗')
@@ -30,14 +33,14 @@ const start = async (farelll = new farelll()) => {
         console.log('██║╚██╔╝██║██╔══╝░░██╔══██║██╔══██╗██╔══╝░░██║░░░░░░╚═══██╗')
         console.log('██║░╚═╝░██║██║░░░░░██║░░██║██║░░██║███████╗███████╗██████╔╝')
         console.log('╚═╝░░░░░╚═╝╚═╝░░░░░╚═╝░░╚═╝╚═╝░░╚═╝╚══════╝╚══════╝╚═════╝░')
-        console.log('BOT Nulis Sukses Di Aktifkan')
+        console.log('BOT Sukses Di Aktifkan')
         // Force it to keep the current session
         farelll.onStateChanged((state) => {
             console.log('[ LOADING ]', state)
             if (state === 'BERMASALAH' || state === 'BELUM DIJALANKAN') farelll.forceRefocus()
         })
         // listening on message
-        farelll.onMessage((async (message) => {
+        farelll.onAnyMessage((async (message) => {
             farelll.getAmountOfLoadedMessages()
             .then((msg) => {
                 if (msg >= 3000) {
