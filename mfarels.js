@@ -1,6 +1,6 @@
 const { create, farelll } = require('@open-wa/wa-automate')
 const msgHandler = require('./zahra')
-const options = require('./magernulis')
+const options = require('./options')
 
 const start = async (farelll = new farelll()) => {
         console.log('███╗░░░███╗███████╗░█████╗░██████╗░███████╗██╗░░░░░░██████╗░░░░░░██████╗░░█████╗░████████╗')
