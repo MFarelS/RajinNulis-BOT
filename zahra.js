@@ -1,6 +1,8 @@
 /*
 YouTube : MFarelS CH
 
+GitHub : MFarelS
+
 Instagram : @mfarelsyahtiawan
 */
 const { decryptMedia } = require('@open-wa/wa-decrypt')
@@ -38,7 +40,7 @@ module.exports = zahra = async (zahraaa, message) => {
         }
 
         const menulis = {
-            magernulissatu: 'Harap Tunggu, Bot Sedang Menulis Buku 1!~\n\nPastikan Perintah Sudah Benar\n/magernulis1 --Nama--Kelas--Text'
+            magernulissatu: 'Harap Tunggu, Bot Sedang Menulis Buku 1!~'
             }
         const time = moment(t * 1000).format('DD/MM HH:mm:ss')
         const botNumber = await zahraaa.getHostNumber()
@@ -92,8 +94,34 @@ MOHON UNTUK TIDAK MENGHAPUS SOURCE GITHUB
 
 */
         //MAGER NULIS//
-        case '/magernulis1':
-        case '#magernulis1':
+        case '/magernulis1a':
+            if (args.length === 1) return zahraaa.reply(from, 'Kirim perintah */magernulis1a [text]*', id)
+            const diTulis = body.slice(14)
+            await zahraaa.reply(from, menulis.magernulissatu, id)
+            const panjangKalimat = diTulis.replace(/(\S+\s*){1,10}/g, '$&\n')
+            const panjangBaris = panjangKalimat.split('\n').slice(0, 30).join('\n')
+            spawn('convert', [
+                './mager/magernulis/magernulis1.jpg',
+                '-font',
+                './font/Zahraaa.ttf',
+                '-size',
+                '700x960',
+                '-pointsize',
+                '25',
+                '-interline-spacing',
+                '1',
+                '-annotate',
+                '+170+222',
+                fixHeight,
+                './img/after.jpg'
+            ])
+            .on('error', () => client.reply(from, 'Error gan', id))
+            .on('exit', () => {
+                client.sendImage(from, './img/after.jpg', 'nulis.jpg', 'Nih mhank', id)
+            })
+            break
+        case '/magernulis5
+        case '#magernulis5:
                 if (args.length === 4) return await zahraaa.reply(from, 'Kirim Perintah */magernulis1 --[nama]--[kelas]--[teks]*\n\n*Contoh :*\n/magernulis1 --MFarelS--7B--Subscribe MFarelS CH', id)
                 arg = body.trim().split('--')
                 const diNama = arg[1]
