@@ -169,7 +169,7 @@ MOHON UNTUK TIDAK MENGHAPUS SOURCE GITHUB
             spawn('convert', [
                 './MFarelSZ/Farelll/magernulis1.jpg',
                 '-fill',
-                '#d5312e',
+                '#8c1a00',
                 '-font',
                 './font/Zahraaa.ttf',
                 '-size',
