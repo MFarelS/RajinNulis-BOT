@@ -20,8 +20,8 @@ moment.tz.setDefault('Asia/Jakarta').locale('id')
 
 module.exports = zahra = async (zahraaa, message) => {
     try {
-        const { type, id, from, t, sender, isGroupMsg, chat, caption, isMedia, mimetype, quotedMsg, quotedMsgObj, mentionedJidList } = message
-        let { body } = message
+        let { body, type, id, from, to, t, sender, isGroupMsg, chat, caption, isMedia, mimetype, quotedMsg, quotedMsgObj, mentionedJidList, author } = message
+        if (sender && sender.isMe) from = to
         const { name, formattedTitle } = chat
         let { pushname, verifiedName } = sender
         pushname = pushname || verifiedName
@@ -107,17 +107,17 @@ MOHON UNTUK TIDAK MENGHAPUS SOURCE GITHUB
                 '-size',
                 '700x960',
                 '-pointsize',
-                '25',
+                '20',
                 '-interline-spacing',
                 '1',
                 '-annotate',
-                '+170+222',
-                fixHeight,
-                './img/after.jpg'
+                '+344+142',
+                panjangBaris,
+                './mager/magernulis√/magernulis1√.jpg'
             ])
-            .on('error', () => client.reply(from, 'Error gan', id))
+            .on('error', () => zahraaa.reply(from, 'Error gan', id))
             .on('exit', () => {
-                client.sendImage(from, './img/after.jpg', 'nulis.jpg', 'Nih mhank', id)
+                zahraaa.sendImage(from, './mager/magernulis√/magernulis1√.jpg', 'nulis.jpg', 'Nih mhank', id)
             })
             break
         case '/magernulis5
