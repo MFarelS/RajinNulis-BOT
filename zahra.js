@@ -1,9 +1,18 @@
 /*
 YouTube : MFarelS CH
+https://www.youtube.com/channel/UCYfBSMa1JJbKwD8bNm-etiA
 
 GitHub : MFarelS
+https://github.com/MFarelS
 
 Instagram : @mfarelsyahtiawan
+https://instagram.com/mfarelsch
+
+Saweria : MFarelS
+https://sawwria.co/MFarelS
+
+WhatsApp : 0812-1908-7237
+https://wa.me/6281219087237
 */
 const { decryptMedia } = require('@open-wa/wa-decrypt')
 const fs = require('fs-extra')
@@ -40,7 +49,8 @@ module.exports = zahra = async (zahraaa, message) => {
         }
 
         const menulis = {
-            magernulissatu: 'Harap Tunggu, Bot Sedang Menulis Buku 1!~'
+            magernulissatu: 'Harap Tunggu, Bot Sedang Menulis Di Buku 1!~',
+            errormagernulissatu: 'Error, Terjadi Kesalahan Saat Menulis Di Buku 1!~'
             }
         const time = moment(t * 1000).format('DD/MM HH:mm:ss')
         const botNumber = await zahraaa.getHostNumber()
@@ -95,13 +105,15 @@ MOHON UNTUK TIDAK MENGHAPUS SOURCE GITHUB
 */
         //MAGER NULIS//
         case '/magernulis1a':
-            if (args.length === 1) return zahraaa.reply(from, 'Kirim perintah */magernulis1a [text]*', id)
+            if (args.length === 1) return zahraaa.reply(from, 'Kirim Perintah */magernulis1a [text]*', id)
             const diTulis = body.slice(14)
             await zahraaa.reply(from, menulis.magernulissatu, id)
             const panjangKalimat = diTulis.replace(/(\S+\s*){1,10}/g, '$&\n')
             const panjangBaris = panjangKalimat.split('\n').slice(0, 30).join('\n')
             spawn('convert', [
-                './mager/magernulis/magernulis1.jpg',
+                './MFarelSZ/Farelll/magernulis1.jpg',
+                '-fill',
+                '#141414',
                 '-font',
                 './font/Zahraaa.ttf',
                 '-size',
@@ -109,15 +121,15 @@ MOHON UNTUK TIDAK MENGHAPUS SOURCE GITHUB
                 '-pointsize',
                 '20',
                 '-interline-spacing',
-                '1',
+                '-7.5',
                 '-annotate',
                 '+344+142',
                 panjangBaris,
-                './mager/magernulis√/magernulis1√.jpg'
+                './MFarelSZ/Zahraaa/magernulis1√.jpg'
             ])
-            .on('error', () => zahraaa.reply(from, 'Error gan', id))
+            .on('error', () => zahraaa.reply(from, menulis.errormagernulissatu, id))
             .on('exit', () => {
-                zahraaa.sendImage(from, './mager/magernulis√/magernulis1√.jpg', 'nulis.jpg', 'Nih mhank', id)
+                zahraaa.sendImage(from, './MFarelSZ/Zahraaa/magernulis1√.jpg', 'MFarelSZ.jpg', '*Sukses✓ Nulis DiBuku ✓*\n\n*YouTube : MFarelS CH*\n*Instagram : @mfarelsyahtiawan*\n*Twitter : @MSyahtiawan*\n*GitHub : @MFarelS*\n*Saweria : MFarelS*\n\n*© 2021 MFarelS✓*', id)
             })
             break
         case '/magernulis5
@@ -206,7 +218,7 @@ MOHON UNTUK TIDAK MENGHAPUS SOURCE GITHUB
                 ])
                 .on('error', () => zahraaa.reply(from, 'Error Bjeer, Keknya Scriptnya Lagi Error', id))
                 .on('exit', () => {
-                    zahraaa.sendImage(from, './mager/magernulis√/magernulis1√.jpg', 'Jarot.jpg', '*Sukses✓ Nulis DiBuku ✓*\n\n*YouTube : MFarelS CH*\n*Instagram : @mfarelsyahtiawan*\n*Twitter : @MSyahtiawan*\n*GitHub : @MFarelS*\n*Saweria : MFarelS*\n\n*© Powered By MagerNulis BOT✓*', id)
+                    zahraaa.sendImage(from, './mager/magernulis√/magernulis1√.jpg', 'Jarot.jpg', '*Sukses✓ Nulis DiBuku ✓*\n\n*YouTube : MFarelS CH*\n*Instagram : @mfarelsyahtiawan*\n*Twitter : @MSyahtiawan*\n*GitHub : @MFarelS*\n*Saweria : MFarelS*\n\n*© 2021 MFarelS✓*', id)
                 })
             break
 /*
