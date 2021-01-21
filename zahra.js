@@ -132,7 +132,35 @@ MOHON UNTUK TIDAK MENGHAPUS SOURCE GITHUB
                 zahraaa.sendImage(from, './MFarelSZ/Zahraaa/magernulis1√.jpg', 'MFarelSZ.jpg', '*Sukses✓ Nulis DiBuku ✓*\n\n*YouTube : MFarelS CH*\n*Instagram : @mfarelsyahtiawan*\n*Twitter : @MSyahtiawan*\n*GitHub : @MFarelS*\n*Saweria : MFarelS*\n\n*© 2021 MFarelS✓*', id)
             })
             break
-        case '/magernulis5
+        case '/magernulis1b':
+            if (args.length === 1) return zahraaa.reply(from, 'Kirim Perintah */magernulis1b [text]*', id)
+            const diTulis2 = body.slice(14)
+            await zahraaa.reply(from, menulis.magernulissatu, id)
+            const panjangKalimat2 = diTulis2.replace(/(\S+\s*){1,10}/g, '$&\n')
+            const panjangBaris2 = panjangKalimat2.split('\n').slice(0, 30).join('\n')
+            spawn('convert', [
+                './MFarelSZ/Farelll/magernulis1.jpg',
+                '-fill',
+                '#001675',
+                '-font',
+                './font/Zahraaa.ttf',
+                '-size',
+                '700x960',
+                '-pointsize',
+                '20',
+                '-interline-spacing',
+                '-7.5',
+                '-annotate',
+                '+344+142',
+                panjangBaris2,
+                './MFarelSZ/Zahraaa/magernulis1√.jpg'
+            ])
+            .on('error', () => zahraaa.reply(from, menulis.errormagernulissatu, id))
+            .on('exit', () => {
+                zahraaa.sendImage(from, './MFarelSZ/Zahraaa/magernulis1√.jpg', 'MFarelSZ.jpg', '*Sukses✓ Nulis DiBuku ✓*\n\n*YouTube : MFarelS CH*\n*Instagram : @mfarelsyahtiawan*\n*Twitter : @MSyahtiawan*\n*GitHub : @MFarelS*\n*Saweria : MFarelS*\n\n*© 2021 MFarelS✓*', id)
+            })
+            break
+/*        case '/magernulis5
         case '#magernulis5:
                 if (args.length === 4) return await zahraaa.reply(from, 'Kirim Perintah */magernulis1 --[nama]--[kelas]--[teks]*\n\n*Contoh :*\n/magernulis1 --MFarelS--7B--Subscribe MFarelS CH', id)
                 arg = body.trim().split('--')
@@ -220,7 +248,7 @@ MOHON UNTUK TIDAK MENGHAPUS SOURCE GITHUB
                 .on('exit', () => {
                     zahraaa.sendImage(from, './mager/magernulis√/magernulis1√.jpg', 'Jarot.jpg', '*Sukses✓ Nulis DiBuku ✓*\n\n*YouTube : MFarelS CH*\n*Instagram : @mfarelsyahtiawan*\n*Twitter : @MSyahtiawan*\n*GitHub : @MFarelS*\n*Saweria : MFarelS*\n\n*© 2021 MFarelS✓*', id)
                 })
-            break
+            break*/
 /*
 
 Source code / bot ini merupakan program open-source (gratis) yang ditulis menggunakan JavaScript, kamu dapat menggunakan, menyalin, memodifikasi, menggabungkan, menerbitkan, mendistribusikan, mensublisensikan, dan atau menjual salinan dengan tanpa menghapus author utama dari source code / bot ini.
