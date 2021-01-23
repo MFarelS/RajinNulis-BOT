@@ -112,12 +112,10 @@ MOHON UNTUK TIDAK MENGHAPUS SOURCE GITHUB
             const panjangBaris = panjangKalimat.split('\n').slice(0, 30).join('\n')
             spawn('convert', [
                 './MFarelSZ/Farelll/magernulis1.jpg',
-                '-fill',
-                '#141414',
                 '-font',
                 './font/Zahraaa.ttf',
                 '-size',
-                '700x960',
+                '1024x784',
                 '-pointsize',
                 '20',
                 '-interline-spacing',
@@ -145,7 +143,7 @@ MOHON UNTUK TIDAK MENGHAPUS SOURCE GITHUB
                 '-font',
                 './font/Zahraaa.ttf',
                 '-size',
-                '700x960',
+                '1024x784',
                 '-pointsize',
                 '20',
                 '-interline-spacing',
@@ -161,7 +159,7 @@ MOHON UNTUK TIDAK MENGHAPUS SOURCE GITHUB
             })
             break
         case '/magernulis1c':
-            if (args.length === 1) return zahraaa.reply(from, 'Kirim Perintah */magernulis1b [text]*', id)
+            if (args.length === 1) return zahraaa.reply(from, 'Kirim Perintah */magernulis1c [text]*', id)
             const diTulis3 = body.slice(14)
             await zahraaa.reply(from, menulis.magernulissatu, id)
             const panjangKalimat3 = diTulis3.replace(/(\S+\s*){1,10}/g, '$&\n')
@@ -173,7 +171,7 @@ MOHON UNTUK TIDAK MENGHAPUS SOURCE GITHUB
                 '-font',
                 './font/Zahraaa.ttf',
                 '-size',
-                '700x960',
+                '1024x784',
                 '-pointsize',
                 '20',
                 '-interline-spacing',
@@ -189,19 +187,50 @@ MOHON UNTUK TIDAK MENGHAPUS SOURCE GITHUB
             })
             break
         case '/magernulis1d':
-            if (args.length === 1) return zahraaa.reply(from, 'Kirim Perintah */magernulis1b [text]*', id)
+            if (args.length === 1) return await zahraaa.reply(from, 'Kirim Perintah */magernulis1d [teks]*', id)
             const diTulis4 = body.slice(14)
             await zahraaa.reply(from, menulis.magernulissatu, id)
             const panjangKalimat4 = diTulis4.replace(/(\S+\s*){1,10}/g, '$&\n')
-            const panjangBaris4 = panjangKalimat4.split('\n').slice(0, 30).join('\n')
+            const panjangBaris4 = panjangKalimat4.split('\n').slice(0, 33).join('\n')
+            var months = ['- 1 -', '- 2 -', '- 3 -', '- 4 -', '- 5 -', '- 6 -', '- 7 -', '- 8 -', '- 9 -', '- 10 -', '- 11 -', '- 12 -'];
+            var myDays = ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat', 'Sabtu'];
+            var date = new Date();
+            var day = date.getDate();
+            var month = date.getMonth();
+            var thisDay = date.getDay(),
+                thisDay = myDays[thisDay];
+            var yy = date.getYear();
+            var year = (yy < 1000) ? yy + 1900 : yy;
+            const waktu = (day + ' ' + months[month] + ' ' + year)
+            const hari = (thisDay)
             spawn('convert', [
                 './MFarelSZ/Farelll/magernulis1.jpg',
-                '-fill',
-                '#594c49',
                 '-font',
                 './font/Zahraaa.ttf',
                 '-size',
-                '700x960',
+                '1024x784',
+                '-pointsize',
+                '20',
+                '-interline-spacing',
+                '1',
+                '-annotate',
+                '+806+78',
+                hari,
+                '-font',
+                './font/Zahraaa.ttf',
+                '-size',
+                '1024x784',
+                '-pointsize',
+                '18',
+                '-interline-spacing',
+                '1',
+                '-annotate',
+                '+806+102',
+                waktu,
+                '-font',
+                './font/Zahraaa.ttf',
+                '-size',
+                '1024x784',
                 '-pointsize',
                 '20',
                 '-interline-spacing',
@@ -209,6 +238,136 @@ MOHON UNTUK TIDAK MENGHAPUS SOURCE GITHUB
                 '-annotate',
                 '+344+142',
                 panjangBaris4,
+                './MFarelSZ/Zahraaa/magernulis1√.jpg'
+            ])
+            .on('error', () => zahraaa.reply(from, menulis.errormagernulissatu, id))
+            .on('exit', () => {
+                zahraaa.sendImage(from, './MFarelSZ/Zahraaa/magernulis1√.jpg', 'MFarelSZ.jpg', '*Sukses✓ Nulis DiBuku ✓*\n\n*YouTube : MFarelS CH*\n*Instagram : @mfarelsyahtiawan*\n*Twitter : @MSyahtiawan*\n*GitHub : @MFarelS*\n*Saweria : MFarelS*\n\n*© 2021 MFarelS✓*', id)
+            })
+            break
+        case '/magernulis1e':
+            if (args.length === 1) return await zahraaa.reply(from, 'Kirim Perintah */magernulis1e [teks]*', id)
+            const diTulis5 = body.slice(14)
+            await zahraaa.reply(from, menulis.magernulissatu, id)
+            const panjangKalimat5 = diTulis5.replace(/(\S+\s*){1,10}/g, '$&\n')
+            const panjangBaris5 = panjangKalimat5.split('\n').slice(0, 33).join('\n')
+            var months = ['- 1 -', '- 2 -', '- 3 -', '- 4 -', '- 5 -', '- 6 -', '- 7 -', '- 8 -', '- 9 -', '- 10 -', '- 11 -', '- 12 -'];
+            var myDays = ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat', 'Sabtu'];
+            var date = new Date();
+            var day = date.getDate();
+            var month = date.getMonth();
+            var thisDay = date.getDay(),
+                thisDay = myDays[thisDay];
+            var yy = date.getYear();
+            var year = (yy < 1000) ? yy + 1900 : yy;
+            const waktu2 = (day + ' ' + months[month] + ' ' + year)
+            const hari2 = (thisDay)
+            spawn('convert', [
+                './MFarelSZ/Farelll/magernulis1.jpg',
+                '-fill',
+                '#001675',
+                '-font',
+                './font/Zahraaa.ttf',
+                '-size',
+                '1024x784',
+                '-pointsize',
+                '20',
+                '-interline-spacing',
+                '1',
+                '-annotate',
+                '+806+78',
+                hari2,
+                '-fill',
+                '#001675',
+                '-font',
+                './font/Zahraaa.ttf',
+                '-size',
+                '1024x784',
+                '-pointsize',
+                '18',
+                '-interline-spacing',
+                '1',
+                '-annotate',
+                '+806+102',
+                waktu2,
+                '-fill',
+                '#001675',
+                '-font',
+                './font/Zahraaa.ttf',
+                '-size',
+                '1024x784',
+                '-pointsize',
+                '20',
+                '-interline-spacing',
+                '-7.5',
+                '-annotate',
+                '+344+142',
+                panjangBaris5,
+                './MFarelSZ/Zahraaa/magernulis1√.jpg'
+            ])
+            .on('error', () => zahraaa.reply(from, menulis.errormagernulissatu, id))
+            .on('exit', () => {
+                zahraaa.sendImage(from, './MFarelSZ/Zahraaa/magernulis1√.jpg', 'MFarelSZ.jpg', '*Sukses✓ Nulis DiBuku ✓*\n\n*YouTube : MFarelS CH*\n*Instagram : @mfarelsyahtiawan*\n*Twitter : @MSyahtiawan*\n*GitHub : @MFarelS*\n*Saweria : MFarelS*\n\n*© 2021 MFarelS✓*', id)
+            })
+            break
+        case '/magernulis1f':
+            if (args.length === 1) return await zahraaa.reply(from, 'Kirim Perintah */magernulis1f [teks]*', id)
+            const diTulis6 = body.slice(14)
+            await zahraaa.reply(from, menulis.magernulissatu, id)
+            const panjangKalimat6 = diTulis6.replace(/(\S+\s*){1,10}/g, '$&\n')
+            const panjangBaris6 = panjangKalimat6.split('\n').slice(0, 33).join('\n')
+            var months = ['- 1 -', '- 2 -', '- 3 -', '- 4 -', '- 5 -', '- 6 -', '- 7 -', '- 8 -', '- 9 -', '- 10 -', '- 11 -', '- 12 -'];
+            var myDays = ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat', 'Sabtu'];
+            var date = new Date();
+            var day = date.getDate();
+            var month = date.getMonth();
+            var thisDay = date.getDay(),
+                thisDay = myDays[thisDay];
+            var yy = date.getYear();
+            var year = (yy < 1000) ? yy + 1900 : yy;
+            const waktu3 = (day + ' ' + months[month] + ' ' + year)
+            const hari3 = (thisDay)
+            spawn('convert', [
+                './MFarelSZ/Farelll/magernulis1.jpg',
+                '-fill',
+                '#8c1a00',
+                '-font',
+                './font/Zahraaa.ttf',
+                '-size',
+                '1024x784',
+                '-pointsize',
+                '20',
+                '-interline-spacing',
+                '1',
+                '-annotate',
+                '+806+78',
+                hari3,
+                '-fill',
+                '#8c1a00',
+                '-font',
+                './font/Zahraaa.ttf',
+                '-size',
+                '1024x784',
+                '-pointsize',
+                '18',
+                '-interline-spacing',
+                '1',
+                '-annotate',
+                '+806+102',
+                waktu3,
+                '-fill',
+                '#8c1a00',
+                '-font',
+                './font/Zahraaa.ttf',
+                '-size',
+                '1024x784',
+                '-pointsize',
+                '20',
+                '-interline-spacing',
+                '-7.5',
+                '-annotate',
+                '+344+142',
+                panjangBaris6,
                 './MFarelSZ/Zahraaa/magernulis1√.jpg'
             ])
             .on('error', () => zahraaa.reply(from, menulis.errormagernulissatu, id))
