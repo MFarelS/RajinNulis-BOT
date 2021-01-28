@@ -375,7 +375,7 @@ MOHON UNTUK TIDAK MENGHAPUS SOURCE GITHUB
                 zahraaa.sendImage(from, './MFarelSZ/Zahraaa/magernulis1√.jpg', 'MFarelSZ.jpg', '*Sukses✓ Nulis DiBuku ✓*\n\n*YouTube : MFarelS CH*\n*Instagram : @mfarelsyahtiawan*\n*Twitter : @MSyahtiawan*\n*GitHub : @MFarelS*\n*Saweria : MFarelS*\n\n*© 2021 MFarelS✓*', id)
             })
             break
-        case '/magernulis1g:
+        case '/magernulis1g':
                 if (args.length === 4) return await zahraaa.reply(from, 'Kirim Perintah */magernulis1g --[nama]--[kelas]--[teks]*', id)
                 arg = body.trim().split('--')
                 const diNama = arg[1]
@@ -463,7 +463,7 @@ MOHON UNTUK TIDAK MENGHAPUS SOURCE GITHUB
                     zahraaa.sendImage(from, './MFarelSZ/Zahraaa/magernulis1√.jpg', 'Jarot.jpg', '*Sukses✓ Nulis DiBuku ✓*\n\n*YouTube : MFarelS CH*\n*Instagram : @mfarelsyahtiawan*\n*Twitter : @MSyahtiawan*\n*GitHub : @MFarelS*\n*Saweria : MFarelS*\n\n*© 2021 MFarelS✓*', id)
                 })
             break
-        case '/magernulis1h:
+        case '/magernulis1h':
                 if (args.length === 4) return await zahraaa.reply(from, 'Kirim Perintah */magernulis1h --[nama]--[kelas]--[teks]*', id)
                 arg = body.trim().split('--')
                 const diNama2 = arg[1]
@@ -561,7 +561,7 @@ MOHON UNTUK TIDAK MENGHAPUS SOURCE GITHUB
                     zahraaa.sendImage(from, './MFarelSZ/Zahraaa/magernulis1√.jpg', 'Jarot.jpg', '*Sukses✓ Nulis DiBuku ✓*\n\n*YouTube : MFarelS CH*\n*Instagram : @mfarelsyahtiawan*\n*Twitter : @MSyahtiawan*\n*GitHub : @MFarelS*\n*Saweria : MFarelS*\n\n*© 2021 MFarelS✓*', id)
                 })
             break
-        case '/magernulis1i:
+        case '/magernulis1i':
                 if (args.length === 4) return await zahraaa.reply(from, 'Kirim Perintah */magernulis1i --[nama]--[kelas]--[teks]*', id)
                 arg = body.trim().split('--')
                 const diNama3 = arg[1]
